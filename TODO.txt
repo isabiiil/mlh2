@@ -1,0 +1,5 @@
+- style the browser
+- create the about section
+- highlight active tab using lastPressed
+- animate transitions
+- fix font
