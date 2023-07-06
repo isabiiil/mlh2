@@ -7,7 +7,7 @@ export default function Tab({ title, winner, logo, company }: {
   company?: string
 }) {
   return (
-    <div className="flex flex-row items-center justify-center h-auto w-1/2 bg-red-300 rounded-t-full">
+    <div className="flex flex-wrap items-center justify-center h-auto w-1/2 bg-red-300 rounded-t-full">
       <div className='h-full w-3 flex flex-col items-center justify-center'>
         {winner && <span className="text-sm">🏆 </span>}
         {(logo && company) && 
