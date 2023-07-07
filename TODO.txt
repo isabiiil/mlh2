@@ -1,5 +1,19 @@
 - style the browser
 - create the about section
 - highlight active tab using lastPressed
+        import { useState } from 'react';
+
+        const App = () => {
+
+          const [ isFullWidth, setIsFullWidth ] = useState(false);
+
+          return (
+            <p style={{'width':` ${isFullWidth ? '100%' : '20%'}`}} >
+              Hello world
+            </p>
+          );
+        };
+
+        export default App;
 - animate transitions
 - fix font
